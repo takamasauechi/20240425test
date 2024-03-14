@@ -1,0 +1,508 @@
+.title h1{
+	position: absolute;
+	top: 30vw;
+	left: 10vw;
+	font-size: 20vw;
+	z-index: 20;
+ }
+.ganre__1,.ganre__2,.ganre__3,.ganre__4,.ganre__5{
+	border: 5px solid rgb(233, 14, 196);
+	position: absolute;
+	width: 15vw;
+	height: 62vw;
+	border-radius: 20px;	
+}
+.ganre__1{
+	background:url(./images/amawrs.jpg)no-repeat center / cover ;
+	top: 10vw;
+	left: 5vw;
+}
+.ganre__2{
+	background:url(./images/frst.jpg)no-repeat center / cover ;
+	top: 10vw;
+	left: 23vw;
+}
+.ganre__3{
+	background:url(./images/brkng.jpg)no-repeat center / cover ;
+	top: 10vw;
+	left: 41vw;
+}
+.ganre__4{
+	background:url(./images/ron.jpg)no-repeat center / cover ; 
+	top: 10vw;
+	left: 59vw;
+}
+.ganre__5{
+	background:url(./images/hng.jpg)no-repeat center / cover ;
+	top: 10vw;
+	left: 77vw;
+}
+.ganre__1 a,.ganre__2 a,.ganre__3 a,.ganre__4 a,.ganre__5 a{
+	width: 15vw;
+	height: 62vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flexbox,.search,.search h1,.search h3,.search div,.search div input{
+	font-family: Roboto, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-size: 25px;
+} 
+.flexbox {
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+    top: 85vw;
+    left: 50vw;
+	translate: -50%;
+}
+.search h3 {
+	font-weight: normal;
+}
+  
+.search h1,
+.search h3 {
+	color: rgb(0, 0, 0);
+	margin-bottom: 2vw;
+	text-shadow: 0 1px #02ceba;
+}
+  
+.search > div {
+	display: inline-block;
+	position: relative;
+	filter: drop-shadow(0 1px #01dac4);
+}
+  
+.search > div:after {
+	content: "";
+	background: black;
+	width: 4px;
+	height: 25px;
+	position: absolute;
+	top: 35px;
+	transform: rotate(135deg);
+}
+  
+.search div input {
+	color: rgb(233, 14, 196);
+	font-size: 16px;
+	background: white;
+	width: 25px;
+	height: 25px;
+	padding: 20px;
+	border: solid 3px black;
+	outline: none;
+	border-radius: 35px;
+	transition: width 0.5s;
+}
+  
+.search div input::placeholder {
+	color: rgb(233, 14, 196);
+	opacity: 0;
+	transition: opacity 150ms ease-out;
+}
+  
+.search div input:focus::placeholder {
+	opacity: 1;
+}
+  
+.search div input:focus,
+.search div input:not(:placeholder-shown) {
+	width: 280px;
+}
+
+@media screen and (max-width:600px){
+	html,body{
+	}
+	canvas{
+		height: 200vw;
+	}
+	.title h1{
+		position: absolute;
+		top: 5vw;
+		left: 17vw;
+		/* transform: translate(-50%, -50%); */
+		font-size: 17vw;
+	}
+	.ganre__1,.ganre__2,.ganre__3,.ganre__4,.ganre__5{	
+		width:65vw;
+		height: 22vw;
+		border-radius: 20px;
+	}
+	.ganre__1{
+		background:url(./images/mawrs.jpg)no-repeat center / cover; 
+		top: 23vw;
+		left: 17vw;	
+	}
+	.ganre__2{
+		background:url(./images/frst.jpg)no-repeat center / cover; 
+		top: 49vw;
+		left: 17vw;
+	}
+	.ganre__3{
+		background:url(./images/brkng.jpg)no-repeat center / cover;
+		top: 75vw;
+		left: 17vw;
+	}
+	.ganre__4{
+		background:url(./images/ron.jpg)no-repeat center / cover;
+		top: 101vw;
+		left: 17vw;
+	}
+	.ganre__5{
+		background:url(./images/hng.jpg)no-repeat center / cover;
+		top: 127vw;
+		left: 17vw;
+	}
+
+	.ganre__1 a,.ganre__2 a,.ganre__3 a,.ganre__4 a,.ganre__5 a{
+		width: 65vw;
+		height: 22vw;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.flexbox,.search,.search h1,.search h3,.search div,.search div input{
+		font-family: Roboto, sans-serif;
+		padding: 0;
+		margin: 0;
+	}  
+	.search h3 {
+		font-weight: normal;
+	}
+	.search h1,
+	.search h3 {
+		color: rgb(0, 0, 0);
+		margin-bottom: 1vw;
+		text-shadow: 0 1px #02ceba;
+	}
+	
+	.search > div {
+		display: inline-block;
+		position: relative;
+		filter: drop-shadow(0 1px #01dac4);
+	}
+	
+	.search > div:after {
+		content: "";
+		background: black;
+		width: 4px;
+		height: 25px;
+		position: absolute;
+		top: 35px;
+		transform: rotate(135deg);
+	}
+	
+	.search div input {
+		color: rgb(233, 14, 196);
+		font-size: 16px;
+		background: white;
+		width: 25px;
+		height: 25px;
+		padding: 20px;
+		border: solid 3px black;
+		outline: none;
+		border-radius: 35px;
+		transition: width 0.5s;
+	}
+	
+	.search div input::placeholder {
+		color: rgb(233, 14, 196);
+		opacity: 0;
+		transition: opacity 150ms ease-out;
+	}
+	
+	.search div input:focus::placeholder {
+		opacity: 1;
+	}
+	
+	.search div input:focus,
+	.search div input:not(:placeholder-shown) {
+		width: 280px;
+	}
+}
+@media screen and (min-width:1000px){
+	html , body{
+		background-color: #0fe8d2;
+		height: auto;
+		margin: auto;
+	}
+	.title h1{
+		position: absolute;
+		top:2vw;
+		left: 30%;
+		font-size: 11vw;
+	}
+	.ganre__1,.ganre__2,.ganre__3,.ganre__4,.ganre__5{
+		width: 30vw;
+		height: 30vw;
+		border-radius: 5vw;
+	}
+	.ganre__1{
+		background:url(./images/mawrs.jpg)no-repeat center / cover;
+		top: 13vw;
+		left: 3vw;
+	}
+	.ganre__2{
+		background:url(./images/frst.jpg)no-repeat center / cover;
+		top: 13vw;
+		left: 35vw;
+	}
+	.ganre__3{
+		background:url(./images/brkng.jpg)no-repeat center / cover;
+		top: 13vw;
+		left: 67vw;
+	}
+	.ganre__4{
+		background:url(./images/ron.jpg)no-repeat center / cover;
+		top: 45vw;
+		left: 17vw;
+	}
+	.ganre__5{
+		background:url(./images/hng.jpg)no-repeat center / cover;
+		top: 45vw;
+		left: 53vw;
+	}
+	.continer a{
+		width:30vw;
+		height: 30vw;
+	}
+	.flexbox {
+		margin-top: 3vw;
+		width: 100%;
+		height: 10vw;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.otoi{
+		top: 105vw !important;
+		left: 50% !important;
+		transform: translateX(-50%) !important;
+	}
+}
+
+header.comedy {
+    display: inline-block;
+}
+.comedy h1{
+	position: absolute;
+	font-size: 7vw;
+	text-shadow:2px 2px rgb(233, 14, 196);
+	width: 32vw;
+	text-align: center;
+	border-radius: 50px;
+	border:5px solid black;
+	top: 4%;
+	left: 4%;	
+}
+
+.content__pulp1{
+	background: url(./images/mianeteru.jpeg) no-repeat center / cover;
+	height: 33vw;
+	position: absolute;
+	width: 70vw;
+	top: 15vw;
+	left: 14vw;
+	z-index: 30;
+	opacity: 0.7;
+}
+.content__pulp2{
+	background: url(./images/pulpdans.jpg) no-repeat center / cover;
+	height: 33vw;
+	position: absolute;
+	width: 70vw;
+	top: 50vw;
+	left: 14vw;
+	z-index: 30;
+	opacity: 0.7;
+}
+.content__pulp3{
+	background: url(./images/pulpjuu.jpeg) no-repeat center / cover;
+	height: 33vw;
+	position: absolute;
+	width: 70vw;
+	top: 85vw;
+	left: 14vw;
+	z-index: 30;
+	opacity: 0.7;
+}
+em{
+	position: absolute;
+	font-size: 5vw;
+	font-weight: bold;	
+	width: 35vw;
+	top: 70vw;
+	left: 50vw;
+	transform: translate(-50%,-50%);
+	text-shadow:2px 2px;
+	text-shadow:1px 1px rgba(253, 249, 252,0.5);
+	z-index: 80;
+}
+.content__foresto1{
+	background: url(./images/forestotona.jpeg) no-repeat center / cover;
+	height: 33vw;
+	position: absolute;
+	width: 70vw;
+	top: 15vw;
+	left: 14vw;
+	z-index: 30;
+	opacity: 0.7;
+}
+.content__foresto2{
+	background: url(./images/forestkodo.jpeg) no-repeat center / cover;
+	height: 33vw;
+	position: absolute;
+	width: 70vw;
+	top: 50vw;
+	left: 14vw;
+	z-index: 30;
+	opacity: 0.7;
+}
+.content__foresto3{
+	background: url(./images/foresthasi.jpeg) no-repeat center / cover;
+	height: 33vw;
+	position: absolute;
+	width: 70vw;
+	top: 85vw;
+	left: 14vw;
+	z-index: 30;
+	opacity: 0.7;
+}
+
+.content__woruta1{
+	background: url(./images/woruta.jpeg) no-repeat center / cover;
+	height: 33vw;
+	position: absolute;
+	width: 70vw;
+	top: 15vw;
+	left: 14vw;
+	z-index: 30;
+	opacity: 0.7;
+}
+.content__woruta2{
+	background: url(./images/worutahutari.jpeg) no-repeat center / cover;
+	height: 33vw;
+	position: absolute;
+	width: 70vw;
+	top: 50vw;
+	left: 14vw;
+	z-index: 30;
+	opacity: 0.7;
+}
+.content__woruta3{
+	background: url(./images/worutatuma.jpeg) no-repeat center / cover;
+	height: 33vw;
+	position: absolute;
+	width: 70vw;
+	top: 85vw;
+	left: 14vw;
+	z-index: 30;
+	opacity: 0.7;
+}
+
+.content__reon1{
+	background: url(./images/rewonjyuu.jpeg) no-repeat center / cover;
+	height: 33vw;
+	position: absolute;
+	width: 70vw;
+	top: 15vw;
+	left: 14vw;
+	z-index: 30;
+	opacity: 0.7;
+}
+.content__reon2{
+	background: url(./images/reonngeiri.jpeg) no-repeat center / cover;
+	height: 33vw;
+	position: absolute;
+	width: 70vw;
+	top: 50vw;
+	left: 14vw;
+	z-index: 30;
+	opacity: 0.7;
+}
+.content__reon3{
+	background: url(./images/reonmachi.jpeg) no-repeat center / cover;
+	height: 33vw;
+	position: absolute;
+	width: 70vw;
+	top: 85vw;
+	left: 14vw;
+	z-index: 30;
+	opacity: 0.7;
+}
+
+.content__hangu1{
+	background: url(./images/hanngakacha.jpeg) no-repeat center / cover;
+	height: 33vw;
+	position: absolute;
+	width: 70vw;
+	top: 15vw;
+	left: 14vw;
+	z-index: 30;
+	opacity: 0.7;
+}
+.content__hangu2{
+	background: url(./images/hangerebet.jpeg) no-repeat center / cover;
+	height: 33vw;
+	position: absolute;
+	width: 70vw;
+	top: 50vw;
+	left: 14vw;
+	z-index: 30;
+	opacity: 0.7;
+}
+.content__hangu3{
+	background: url(./images/hannghage.jpeg) no-repeat center / cover;
+	height: 33vw;
+	position: absolute;
+	width: 70vw;
+	top: 85vw;
+	left: 14vw;
+	z-index: 30;
+	opacity: 0.7;
+}
+button {
+	position: fixed;
+	bottom: 4vw;
+	right: 3vw;
+	border-radius: 6vw;
+	background-color: rgba(0, 0, 0,0.5);
+	z-index: 50;
+}
+button a{
+	background-color: rgba(15, 232, 210,0.5);
+	color: rgb(1, 1, 1);
+	font-family:sans-serif;
+	padding: 2vw 5vw;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 3vw;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 6vw;
+}
+.otoi{
+	position: absolute;
+	top: 110vw;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.otoi div{
+	text-align: center;
+	margin-bottom:12px;
+	border-radius: 10px;
+}
+/*お試し*/
+canvas {
+    position: fixed; /* または absolute */
+    top: 0;
+    left: 0;
+    width: 100vw; /* 画面幅に合わせる */
+    height: 100vh; /* 画面高さに合わせる */
+    z-index: -1; /* 他の要素の上にcanvasを配置する */
+}
