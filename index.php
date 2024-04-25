@@ -35,13 +35,13 @@ try {
         <h1>cinema</h1>
     </header>
 
-    
-        <a class="ganre__1" href="page1.html"></a>
-        <a class="ganre__2" href="page2.html"></a>
-        <a class="ganre__3" href="page3.html"></a>
-        <a class="ganre__4" href="page4.html"></a>
-        <a class="ganre__5" href="page5.html"></a>
-    
+
+    <a class="ganre__1" href="page1.html"></a>
+    <a class="ganre__2" href="page2.html"></a>
+    <a class="ganre__3" href="page3.html"></a>
+    <a class="ganre__4" href="page4.html"></a>
+    <a class="ganre__5" href="page5.html"></a>
+
 
     <footer>
         <div class="flexbox">
