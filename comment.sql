@@ -20,7 +20,8 @@ SET time_zone = "+00:00";
 --
 -- データベース: `sukinakoto`
 --
-
+CREATE database `sukinakoto`;
+use `sukinakoto`;
 -- --------------------------------------------------------
 
 --
